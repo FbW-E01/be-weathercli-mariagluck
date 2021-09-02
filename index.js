@@ -1,10 +1,12 @@
 import axios from 'axios';
+import process from 'process';
+import APIkey from  './api.js';
 
 
 const APIurl = 'https://api.openweathermap.org/data/2.5/weather';
 const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast'
 const APIkey = '4523728d0d48f713b476cad4faf3e18b';
-const location =  process.argv.slice(2)  ||'berlin';
+const location =  process.argv.slice(2);
 const fullAPI  = `${APIurl}?q=${location[0]}, ${location[1]}&appid=${APIkey}`;
 const fullForecastAPI = `${forecastAPI}?q=${location[0]}, ${location[1]}&appid=${APIkey}`;
 
