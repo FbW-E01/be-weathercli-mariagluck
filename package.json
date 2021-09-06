@@ -1,0 +1,24 @@
+{
+  "name": "be-weathercli-mariagluck",
+  "version": "1.0.0",
+  "description": "Create a Weather CLI. The program should have an API call for [`OpenWeather`](https://openweathermap.org/guide), and it should accept any given city as an argument when it is called (see example below).",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-weathercli-mariagluck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-weathercli-mariagluck/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-weathercli-mariagluck#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
